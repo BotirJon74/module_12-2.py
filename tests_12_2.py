@@ -1,7 +1,5 @@
 import unittest
 
-# Предполагаем, что классы Runner и Tournament уже определены.
-
 class Runner:
     def __init__(self, name, speed):
         self.name = name
@@ -14,7 +12,7 @@ class Runner:
         return distance / self.speed
 
     def walk(self, distance):
-        return distance / (self.speed / 2)  # Например, скорость при ходьбе в два раза меньше
+        return distance / (self.speed / 2)  
 
 
 class Tournament:
